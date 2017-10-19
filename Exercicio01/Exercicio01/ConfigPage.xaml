@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercicio01.ConfigPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView>
+                <TableView.Root>
+                    <TableSection Title="Privacidade">
+                        <!--<SwitchCell On="True" x:Name="swcEmail" />-->
+                        <SwitchCell Text="Aceita receber e-mails?" x:Name="swcEmail" 
+                                    OnChanged="swcEmail_OnChanged"></SwitchCell>
+                        <EntryCell Placeholder="Informe seu e-mail" x:Name="txtTexto" />
+                    </TableSection>
+                </TableView.Root>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

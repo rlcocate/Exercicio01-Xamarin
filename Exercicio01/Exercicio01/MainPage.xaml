@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Exercicio01"
+             x:Class="Exercicio01.MainPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Button Text="Enviar" x:Name="btnEnviar"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="btnEnviar_Clicked">
+            </Button>
+
+            <Button Text="Configuração" x:Name="btnConfiguracao"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="btnConfiguracao_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
